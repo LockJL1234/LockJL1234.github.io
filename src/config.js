@@ -1,84 +1,72 @@
 // config.js
 module.exports = {
     github: {
-        username: 'arifszn', // Your GitHub org/user name. (Required)
+        username: 'LockJL1234', // Your GitHub org/user name. (Required)
         sortBy: 'stars', // stars | updated
         limit: 8, // How many projects to display.
         exclude: {
             forks: false, // Forked projects will not be displayed if set to true.
-            projects: ['laravel-ecommerce'] // These projects will not be displayed. example: ['my-project1', 'my-project2']
+            projects: [] // These projects will not be displayed. example: ['my-project1', 'my-project2']
         }
     },
     social: {
-        linkedin: 'ariful-alam',
-        twitter: 'arif_swozon',
+        linkedin: 'Lock Jun Lin',
+        twitter: '',
         facebook: '',
         dribbble: '',
         behance: '',
         medium: '',
-        devto: 'arifszn',
-        website: 'https://arifszn.github.io',
-        phone: '',
-        email: 'arifulalamszn@gmail.com'
+        devto: '',
+        website: 'https://LockJL1234.github.io',
+        phone: '+6016-9026692',
+        email: 'vash104@hotmail.com'
     },
     skills: [
-        'PHP',
-        'Laravel',
-        'JavaScript',
-        'React.js',
-        'Node.js',
-        'MySQL',
-        'Git',
-        'Docker',
-        'CSS',
-        'Antd',
-        'Tailwind',
-        'Bootstrap',
+        'Python',
+        'C++',
+        'SQL',
+        'Java',
+        'Jupyter Notebook',
+        'Android Studio',
+        'Microsoft Word',
+        'Microsoft Excel',
+        'Microsoft PowerPoint',
+        'Anaconda',
+        'Spyder',
+        'Virtual Machine',
     ],
     experiences: [
         { 
-            company: 'Monstarlab Bangladesh',
-            position: 'Backend Engineer II',
-            from: 'September 2021',
-            to: 'Present'
-        },
-        { 
-            company: 'Orangetoolz',
-            position: 'Jr. Full Stack Engineer',
-            from: 'July 2019',
-            to: 'August 2021'
-        },
-        { 
-            company: 'Techvillage',
-            position: 'Jr. Software Engineer',
-            from: 'January 2019',
-            to: ' June 2019'
+            company: 'Moge Tee',
+            position: 'Tearista',
+            from: 'May 2019',
+            to: 'August 2019'
         }
     ],
     education: [
         { 
-            institution: 'American International University-Bangladesh',
-            degree: 'Bachelor of Science',
-            from: '2015',
-            to: '2019'
+            institution: 'University of Wollongong Malaysia KDU University College',
+            degree: 'Bachelor of Computer Science (Hons)',
+            from: '2019',
+            to: '2022'
         },
         { 
-            institution: 'Cantonment College, Jessore',
-            degree: 'Higher Secondary Certificate (HSC)',
-            from: '2012',
-            to: '2014',
+            institution: 'KDU University College, Glenmarie',
+            foundation: 'Foundation in Arts and Technology',
+            from: '2018',
+            to: '2019',
         },
         { 
-            institution: 'Chowgacha Shahadat Pilot High School',
-            degree: 'Secondary School Certificate (SSC)',
-            from: '2007',
-            to: '2012'
+            institution: 'Sekolah Menengah Kebangsaana (SMK) Taman SEA',
+            qualification: 'Sijil Pelajaran Malaysia (SPM)',
+            from: '2013',
+            to: '2017'
         }
     ],
     blog: {
         // Display blog posts from your medium or dev.to account. (Optional)
-        source: 'dev.to', // medium | dev.to
-        username: 'arifszn',
+        source: '', // medium | dev.to
+        username: '',
         limit: 3 // How many posts to display. Max is 10.
     },
     googleAnalytics: {
