@@ -83,14 +83,14 @@ module.exports = {
     },
     googleAnalytics: {
         // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-        id: 'G-WLLB5E14M6' // Please remove this and use your own tag id or keep it empty
+        id: '' // Please remove this and use your own tag id or keep it empty
     },
     hotjar: {
-        id: '2617601', //  Please remove this and use your own id or keep it empty
+        id: '', //  Please remove this and use your own id or keep it empty
         snippetVersion : 6
     },
     themeConfig: {
-        default: 'light',
+        default: 'Garden',
 
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
